@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_ques"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--随机练习-->
+    <RelativeLayout
+        android:id="@+id/rl_random"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/md_white_1000"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="随机练习"
+            android:textColor="@color/md_grey_900"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/file_enter_icon"/>
+    </RelativeLayout>
+    <!--章节练习-->
+    <RelativeLayout
+        android:id="@+id/rl_chapter"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1px"
+        android:background="@color/md_white_1000"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="章节练习"
+            android:textColor="@color/md_grey_900"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/file_enter_icon"/>
+    </RelativeLayout>
+    <!--在线测试-->
+    <RelativeLayout
+        android:id="@+id/rl_online"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1px"
+        android:background="@color/md_white_1000"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="在线测试"
+            android:textColor="@color/md_grey_900"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/file_enter_icon"/>
+    </RelativeLayout>
+
+    //题型练习
+    <RelativeLayout
+        android:id="@+id/rl_class"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/md_white_1000"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="题型练习"
+            android:textColor="@color/md_grey_900"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/file_enter_icon"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

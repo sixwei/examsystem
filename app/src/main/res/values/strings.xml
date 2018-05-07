@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">esPort</string>
+
+    <string name="PATH">"http://192.168.0.110/8080/rest/user/login"</string>
+    <string name="tab_menu_index">首页</string>
+    <string name="tab_menu_coll">收藏</string>
+    <string name="tab_menu_cate">题库</string>
+    <string name="tab_menu_mi">我的</string>
+    <string name="question_answer">答案</string>
+    <string name="question_coll">收藏</string>
+</resources>
